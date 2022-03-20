@@ -8,17 +8,18 @@ A simple Desktop code runner for Deno, made using
 Install Astrodon's cli:
 
 ```shell
-deno install -A --unstable https://raw.githubusercontent.com/astrodon/astrodon/feature/deno_tauri/modules/astrodon-cli/mod.ts
+deno install -A --unstable -n astrodon https://raw.githubusercontent.com/astrodon/astrodon/feature/deno_tauri/modules/astrodon-cli/mod.ts
+
 ```
 
 Run the app in development mode:
 
 ```
-astrodon-cli run
+astrodon run
 ```
 
 Build an executable:
 
 ```
-astrodon-cli build
+astrodon build
 ```
